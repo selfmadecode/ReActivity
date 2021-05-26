@@ -15,9 +15,6 @@ namespace API
         {
             CreateHostBuilder(args).Build().Run();
         }
-        public void Delete(){
-            //delete this
-        }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
